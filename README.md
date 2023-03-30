@@ -11,19 +11,19 @@ The current repository contains a refactored codebase for the Horiseon Marketing
 
 ## Table of Contents:
 - [Overview](#Overview)
-- [ The Challenge & Process](#The-Challenge-&-Process)
-- [Usage Instructions](#Usage-Information)
+- [The Challenge](#The-Challenge)
+- [The Process](#The-Process)
+- [Usage Instructions](#Usage-Instructions)
 - [Installation Process](#Installation-Process)
 - [Built With](#Built-With)
 - [What I Learned](#What-I-Learned)
 - [Continued Development](#Continued-Development)
-- [License](#License)
+- [License & Copyright ©](#License-&-Copyright-©)
 - [Author](#Author)
 
 # Overview
 
-## The Challenge & Process:
-#### The Challenge:
+## The Challenge:
 1. View the optimal layout for the component depending on their device's screen size.
 2. See a hover state on desktop for the Sign Up call-to-action.
 3. Improve website responsiveness to cater to various screen sizes and devices.
@@ -31,7 +31,7 @@ The current repository contains a refactored codebase for the Horiseon Marketing
 5. Add interactive elements to engage users.
 6. Optimize website performance by leveraging modern web development tools.
 
-#### The Process:
+## The Process:
 I initialized and configured a GitHub repository to maintain version control for this project. The project utilizes GitHub pages to easily publish this project for other to view. I initially created the HTML backbone then styles the borders and flex boxes to get an idea of how to make the divs flow into place. Once done, I added all the CSS classes and queries to make the style have a easy flow.
 
 ## Assigned User Story:
