@@ -24,6 +24,9 @@ The current repository contains a refactored codebase for the Horiseon Marketing
 # Overview
 
 ## The Challenge:
+#### The Process.
+I initialized and configured a GitHub repository to maintain version control for this project. The project utilizes GitHub pages to easily publish this project for other to view. I initially created the HTML backbone then styles the borders and flex boxes to get an idea of how to make the divs flow into place. Once done, I added all the CSS classes and queries to make the style have a easy flow.
+
 1. View the optimal layout for the component depending on their device's screen size.
 2. See a hover state on desktop for the Sign Up call-to-action.
 3. Improve website responsiveness to cater to various screen sizes and devices.
@@ -31,8 +34,7 @@ The current repository contains a refactored codebase for the Horiseon Marketing
 5. Add interactive elements to engage users.
 6. Optimize website performance by leveraging modern web development tools.
 
-## The Process:
-I initialized and configured a GitHub repository to maintain version control for this project. The project utilizes GitHub pages to easily publish this project for other to view. I initially created the HTML backbone then styles the borders and flex boxes to get an idea of how to make the divs flow into place. Once done, I added all the CSS classes and queries to make the style have a easy flow.
+
 
 ## Assigned User Story:
 ```
@@ -68,19 +70,17 @@ THEN I find a concise, descriptive title
 3. Preview changes (optional): Made modifications to the code? Save changes and refresh the index.html file in your web browser to see the updates... enjoy!
 
 ## Deployed Application Link:
-[Deployed Application Link:](https://thomascalle.github.io/Week-One-Challenge/)
+[Deployed Application Link:](https://thomascalle.github.io/BOOTCAMP_The-fire-of-ambition-ignites/)
 
 ## GitHub Repository:
-[GitHub Repository:](https://github.com/ThomasCalle/Week-One-Challenge)
+[GitHub Repository:](https://github.com/ThomasCalle/BOOTCAMP_The-fire-of-ambition-ignites)
 
 ## YouTube Walkthrough Video:
 [Coming Soon...]()
-### Links
 
 ## Screenshot:
 ### Figure 1.
-![](/assets/Images/.png) 
-
+![](/assets/Images/ModuleOne.GIF)
 
 ## Installation Process:
 
