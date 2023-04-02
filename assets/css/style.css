@@ -1,207 +1,216 @@
-/*This is the begining CSS file is the style.css for index.html made by Thomas Calle*/
+/* This is the begining CSS file is the style.css for index.html made by Thomas Calle*/
 
 /* RESUBMISSION FOR THE GOLDEN 100 AHEAD */
 /* NEW STYLE.CSS */
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-header, footer {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+header,
+footer {
+  padding: 20px;
+  background-color: #2a607c;
+  color: #ffffff;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-        align-items: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
-    font-size: 48px;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
 .seo {
-    color: #d9dcd6;
+  color: #d9dcd6;
 }
 
 header nav {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
 }
 
 header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .hero {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
 
 main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
 
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
-
 footer {
-    text-align: center;
-}
-
-footer h4 {
-    font-size: 20px;
+  background-color: #0f8bdd;
+  padding: 0px;
+  flex: 1 1 250px;
+  text-align: center;
+  font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
 }
 
 /*End: footer Section Styling*/
 
-
 /* BE WARY GOD MODE AHEAD */
-/* BE WARY GOD MODE AHEAD */
-/* BE WARY GOD MODE AHEAD */
-/* BE WARY GOD MODE AHEAD */
-
 /* DEPLOYED APPLICATION RESPONSIVE @MEDIA BEGGINING */
 /* Tablets in landscape mode */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    body {
-      min-height: 150vh;
-    }
-  }
-  
-  /* Smartphones and tablets in portrait mode */
-  @media screen and (max-width: 767px) {
-    body {
-      min-height: 200vh;
-    }
-  }
-  
-  /* Large desktop screens */
-  @media screen and (min-width: 1200px) {
-    body {
-      min-height: 100vh;
-    }
-  }
-  
-  /* High-resolution displays */
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),
-         only screen and (min-resolution: 192dpi) {
-  }
-  
-  /* Screens with an sRGB COLOR GAMUT */
-  @media (color-gamut: srgb) {
-  }
-  
-  /* DARK MODE */
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #f1f1f1;
-    }
-  }
-  
-  /* COLOR BLINDNESS */
-  @media (forced-colors: active) {
-    body {
-      forced-color-adjust: none;
-      background-color: canvas;
-      color: text;
-    }
-  }
- /* DEPLOYED APPLICATION RESPONSIVE @MEDIA BEGGINING */
+}
 
-  
+/* Smartphones and tablets in portrait mode */
+@media screen and (max-width: 767px) {
+  html,
+  body {
+    min-height: 480px;
+  }
+}
+/* CSS for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html,
+  body {
+    min-height: 768px;
+  }
+}
+
+/* CSS for desktop screens */
+@media only screen and (min-width: 992px) {
+    html, body {
+      min-height: 1024px;
+    }
+}
+
+/* High-resolution displays */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi) {
+}
+
+/* Screens with an sRGB COLOR GAMUT */
+@media (color-gamut: srgb) {
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #333;
+    color: #f1f1f1;
+  }
+}
+
+/* COLOR BLINDNESS */
+@media (forced-colors: active) {
+  html {
+    forced-color-adjust: none;
+    background-color: canvas;
+    color: text;
+  }
+}
+/* DEPLOYED APPLICATION RESPONSIVE @MEDIA BEGGINING */
+
 /*End of This CSS file */
