@@ -62,7 +62,7 @@ THEN I find a concise, descriptive title
 ### Figure 1. GIF.
 
 #### The following animation demonstrates the application functionality:
-![](./assets/Images/.GIF)
+![](./assets/Images/ModuleOne.GIF)
 
 ## Usage Instructions: 
 1. Browse the deployed application, navigate through the website, interact with its elements, and check its responsiveness on different screen sizes.
@@ -79,8 +79,8 @@ THEN I find a concise, descriptive title
 [Coming Soon...]()
 
 ## Screenshot:
-### Figure 1.
-![](/assets/Images/ModuleOne.GIF)
+### Figure 1. Completed landing page
+![](/assets/Images/ModuleOneScreenshot.png)
 
 ## Installation Process:
 
