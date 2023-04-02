@@ -1,10 +1,10 @@
-# Week-One-Challenge Thomas' First Ever Module. 😎
+# BOOTCAMP The fire of ambition ignites Thomas' the journey begins
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Week One Challenge Thomas' First Ever Module. 😎
+BOOTCAMP The fire of ambition ignites Thomas' the journey begins
 
 The current repository contains a refactored codebase for the Horiseon Marketing Agency's Website, a solution to the UofT Fullstack Developer Bootcamp(2023) Module(01) Challenge. The focus is on web accessibility standards and search engine optimization, the purpose of the Frontend Mentor challenge was to improve your coding skills by building realistic projects. The project showcases semantic HTML5 elements, logical HTML structure, accessible image attributes, and best practices for organizing CSS. The README file provides an overview of the project, the challenges faced, what was learned during the process, and plans for continued development in the field of web development.
 
