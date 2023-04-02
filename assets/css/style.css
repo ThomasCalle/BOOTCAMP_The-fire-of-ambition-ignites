@@ -9,20 +9,12 @@
   margin: 0;
 }
 
-body {
-  background-color: #d9dcd6;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-header,
-footer {
+header {
   padding: 20px;
   background-color: #2a607c;
   color: #ffffff;
-}
-
-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -32,23 +24,28 @@ header {
 header h1 {
   font-size: 48px;
   margin-bottom: 10px;
+  display: inline-block;
 }
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
 
 .seo {
   color: #d9dcd6;
 }
 
-header nav {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
-}
-
 header nav ul {
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 header nav ul li {
-  display: inline-block;
   margin-left: 15px;
 }
 
@@ -140,50 +137,36 @@ aside {
   max-width: 150px;
 }
 footer {
-  background-color: #0f8bdd;
-  padding: 0px;
-  flex: 1 1 250px;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  font: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  text-align: center;
+  background-color: #2a607c;
 }
 
+footer h3 {
+    font-size: 20px;
+    color: white;
+}
 /*End: footer Section Styling*/
 
 /* BE WARY GOD MODE AHEAD */
 /* DEPLOYED APPLICATION RESPONSIVE @MEDIA BEGGINING */
+
 /* Tablets in landscape mode */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 }
 
 /* Smartphones and tablets in portrait mode */
 @media screen and (max-width: 767px) {
-  html,
-  body {
-    min-height: 480px;
-  }
 }
 /* CSS for tablet devices */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  html,
-  body {
-    min-height: 768px;
-  }
 }
 
 /* CSS for desktop screens */
 @media only screen and (min-width: 992px) {
-    html, body {
-      min-height: 1024px;
-    }
 }
 
 /* High-resolution displays */
